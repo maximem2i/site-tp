@@ -9,6 +9,52 @@
     <title>Page Inscription</title>
 </head>
 <body>
+
+    <header>
+        <nav>
+            <a href="../pages/index.html">
+            <i class="fab fa-500px"></i>
+        </a>
+        <a href="../pages/inscription.html">Inscription</a>
+        <a href="../pages/vitrine.html">Site Vitrine</a>
+        <a href="../pages/calculatrice.html">Calculatrice</a>
+        <a href="../pages/jeu.html">Jeu</a>
+    </nav>
+    </header>
+
+    <form onsubmit="inscription(this)">
+
+        <div class="form-position">
+        <label>Nom :
+            <input type="text" name="nom" id="nom">
+        </label>
+
+        <label>Prenom :
+            <input type="text" name="prenom" id="prenom">
+        </label>
+
+        <label>Age :
+            <input type="text" name="age" id="age">
+        </label>
+
+        <div class="radio">
+
+        <label>Homme
+            <input type="radio" id="male" name="sexe" value="homme">
+        </label><br>
+        
+        <label>Femme
+            <input type="radio" id="female" name="sexe" value="femme">
+        </label><br>    
+        </div>
+
+        <label>Ville :
+            <input type="text" name="ville" id="ville">
+        </label>
+        <br> 
+        <button type="submit">Valider</button>
+    </div>
+    </form>
     
 </body>
 </html>

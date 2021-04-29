@@ -16,6 +16,7 @@ nav {
     padding: 0;
     overflow: hidden;
     background-color: #631c92;
+    margin-bottom: 50px;
 }
 
 nav a {
@@ -34,5 +35,69 @@ nav a:hover {
     font-size: 1.2em;
     margin: 100px;
     text-align: center;
+    color: white;
+}
+
+.form-position {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    width: 150px;
+    margin: auto;
+}
+.form-position label {
+    margin: 10px;
+}
+
+.form-position button {
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    background-color: #631c92;
+    margin-bottom: 50px;
+    margin-left: 25px;
+}
+
+.form-position button:hover {
+    background-color: #100423;
+}
+
+.radio {
+    display: flex;
+    justify-content: center;
+}
+
+.rotation {
+    margin: 0;
+    text-align: center;
+}
+
+.rotation button {
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    background-color: #631c92;
+    margin-bottom: 50px;
+    border-radius: 50%;
+}
+
+.rotation button:hover {
+    background-color: #AC1D7F;
+}
+
+section { 
+    display: flex;
+    justify-content: center;
+}
+
+section img {
+    margin-top: 5px;
+    width: 250px;
+    margin: 20px;
+}
+
+section p {
     color: white;
 }
