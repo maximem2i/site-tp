@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url(../assets/img/p1.jpg);
+    background-size: cover;
+}
+
+nav {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #631c92;
+    margin-bottom: 50px;
+}
+
+nav a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #120633;
+}
+
+#ecran {
+    width: 90%;
+}
+
+#memoire {
+    top: 5px;
+    left: 20px;
+    display: none;
+}
+
+.container {
+    background-color: grey;
+    opacity: 82%;
+    border-radius: 5%;
+    width: 250px;
+    text-align: center;
+    width: 250px;
+    padding: 20px;
+}

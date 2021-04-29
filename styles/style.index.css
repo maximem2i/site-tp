@@ -38,6 +38,16 @@ nav a:hover {
     color: white;
 }
 
+form .form-position {
+    background-color: grey;
+    opacity: 82%;
+    border-radius: 5%;
+    width: 250px;
+    text-align: center;
+    width: 250px;
+    padding: 20px;
+}
+
 .form-position {
     display: flex;
     flex-direction: column;
@@ -46,7 +56,7 @@ nav a:hover {
     margin: auto;
 }
 .form-position label {
-    margin: 10px;
+    margin: 8px;
 }
 
 .form-position button {
@@ -55,12 +65,15 @@ nav a:hover {
     padding: 14px 16px;
     text-decoration: none;
     background-color: #631c92;
-    margin-bottom: 50px;
-    margin-left: 25px;
+    margin: 10px 35px;
 }
 
 .form-position button:hover {
     background-color: #100423;
+}
+
+input {
+    width: 100%;
 }
 
 .radio {
@@ -101,3 +114,5 @@ section img {
 section p {
     color: white;
 }
+
+
