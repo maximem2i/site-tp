@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url(../assets/img/p1.jpg);
+    background-size: cover;
+}
+
+nav {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #631c92;
+}
+
+nav a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #120633;
+}
+
+.welcome {
+    font-size: 1.2em;
+    margin: 100px;
+    text-align: center;
+    color: white;
+}
